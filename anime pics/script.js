@@ -15,7 +15,7 @@ btnEl.addEventListener("click", async function () {
     btnEl.innerText = "Get Anime";
     animeContainerEl.style.display = "block";
     animeImgEl.src = data.results[0].url;
-    amineNameEl.innerText = data.result[0].artist_name;
+    amineNameEl.innerText = data.results[0].artist_name;
   } catch (error) {
     console.log(error);
     btnEl.disabled = false;
