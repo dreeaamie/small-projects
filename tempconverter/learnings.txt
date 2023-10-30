@@ -1,0 +1,8 @@
+lebel , and inputs in html tags
+.tofixed in js
+celsiusEl.value = ((currentValue - 32) / 1.8).toFixed(2);
+const currentValue = +event.target.value;
+event.target.name
+ <input
+          onchange="computeTemp(event)"
+          type="number"
