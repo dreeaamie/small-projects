@@ -1,0 +1,2 @@
+audioEl.style.display = "inline-flex";
+using try catch in sync func
